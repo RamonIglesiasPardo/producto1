@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fo:root font-family="Helvetica" font-size="14pt" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="portada" page-height="29.7cm" page-width="21.0cm">
+      <fo:region-body region-name="xsl-region-body" />
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="A4" page-height="29.7cm" page-width="21.0cm">
+      <fo:region-body region-name="xsl-region-body" margin="2cm" />
+      <fo:region-before region-name="xsl-region-before" extent="1.25cm" />
+      <fo:region-after region-name="xsl-region-after" extent="1.25cm" />
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:bookmark-tree>
+    <fo:bookmark internal-destination="INDICE" starting-state="show">
+      <fo:bookmark-title>Indice de contenidos</fo:bookmark-title>
+      <fo:bookmark internal-destination="ID0ED" starting-state="show">
+        <fo:bookmark-title>Proyecto: Learning XML</fo:bookmark-title>
+        <fo:bookmark internal-destination="ID0EG" starting-state="show">
+          <fo:bookmark-title>1. Lenguajes de marcas</fo:bookmark-title>
+          <fo:bookmark internal-destination="ID0EJ" starting-state="show">
+            <fo:bookmark-title>1.a. ¿Qué son los lenguajes de marcas? </fo:bookmark-title>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0EP" starting-state="show">
+            <fo:bookmark-title>1.b. Ejemplos de lenguajes de marcas </fo:bookmark-title>
+          </fo:bookmark>
+        </fo:bookmark>
+        <fo:bookmark internal-destination="ID0EW" starting-state="show">
+          <fo:bookmark-title>2. Extensible Markup language (XML) </fo:bookmark-title>
+          <fo:bookmark internal-destination="ID0EZ" starting-state="show">
+            <fo:bookmark-title>2.a. Definición de XML</fo:bookmark-title>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0E6" starting-state="show">
+            <fo:bookmark-title>2.b. Utilidades de XML</fo:bookmark-title>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0EFB" starting-state="show">
+            <fo:bookmark-title>2.c. Estructura de documentos XML </fo:bookmark-title>
+            <fo:bookmark internal-destination="ID0EQB" starting-state="show">
+              <fo:bookmark-title>2.c.i ¿Que es DTD?</fo:bookmark-title>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0EWB" starting-state="show">
+              <fo:bookmark-title>2.c.ii Ejemplos de gramáticas DTD</fo:bookmark-title>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0E3B" starting-state="show">
+              <fo:bookmark-title>2.c.iii Principales elementos de una gramática DTD</fo:bookmark-title>
+            </fo:bookmark>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0EFC" starting-state="show">
+            <fo:bookmark-title>2.d. Validación documentos XML</fo:bookmark-title>
+            <fo:bookmark internal-destination="ID0EKC" starting-state="show">
+              <fo:bookmark-title>2.d.i Herramientas de validación de documentos XML.</fo:bookmark-title>
+            </fo:bookmark>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0ERC" starting-state="show">
+            <fo:bookmark-title>2.e. Transformación de estructuras XML</fo:bookmark-title>
+            <fo:bookmark internal-destination="ID0EUC" starting-state="show">
+              <fo:bookmark-title>2.e.i ¿Que es el lenguaje de transformación XSLT? </fo:bookmark-title>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0E3C" starting-state="show">
+              <fo:bookmark-title>2.e.ii Ejemplos de transformaciones XSLT </fo:bookmark-title>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0ECD" starting-state="show">
+              <fo:bookmark-title>2.e.iii Principales instrucciones XSLT.</fo:bookmark-title>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0EID" starting-state="show">
+              <fo:bookmark-title>2.e.iv Herramientas de transformación con XSLT </fo:bookmark-title>
+            </fo:bookmark>
+          </fo:bookmark>
+          <fo:bookmark internal-destination="ID0EPD" starting-state="show">
+            <fo:bookmark-title>2.f. Ejemplos de lenguajes basados en XML</fo:bookmark-title>
+            <fo:bookmark internal-destination="ID0ESD" starting-state="show">
+              <fo:bookmark-title>2.f.i xHTML</fo:bookmark-title>
+              <fo:bookmark internal-destination="ID0EVD" starting-state="show">
+                <fo:bookmark-title>2.f.i.1 ¿Que és xHTML?</fo:bookmark-title>
+              </fo:bookmark>
+              <fo:bookmark internal-destination="ID0E2D" starting-state="show">
+                <fo:bookmark-title>2.f.i.2 Utilidades</fo:bookmark-title>
+              </fo:bookmark>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0ECE" starting-state="show">
+              <fo:bookmark-title>2.f.ii RSS / Atom</fo:bookmark-title>
+              <fo:bookmark internal-destination="ID0EFE" starting-state="show">
+                <fo:bookmark-title>2.f.ii.1 ¿Qué es RSS o Atom? </fo:bookmark-title>
+              </fo:bookmark>
+              <fo:bookmark internal-destination="ID0ENE" starting-state="show">
+                <fo:bookmark-title>2.f.ii.2 Utilidades</fo:bookmark-title>
+              </fo:bookmark>
+            </fo:bookmark>
+            <fo:bookmark internal-destination="ID0EUE" starting-state="show">
+              <fo:bookmark-title>2.f.iii Otros lenguajes basados en XML</fo:bookmark-title>
+            </fo:bookmark>
+          </fo:bookmark>
+        </fo:bookmark>
+      </fo:bookmark>
+    </fo:bookmark>
+  </fo:bookmark-tree>
+  <fo:page-sequence master-reference="portada" force-page-count="no-force">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block-container absolute-position="absolute" width="21cm" height="29.7cm" top="0cm" left="0cm" padding="0cm" margin="0cm" font-size="0cm" line-height="0cm">
+        <fo:block>
+          <fo:external-graphic content-height="29.7cm" absolute-position="absolute" top="0cm" left="0cm" padding="0cm" margin-left="0cm" font-size="0cm" line-height="0cm" z-index="-1" src="img/cover.tif" />
+        </fo:block>
+      </fo:block-container>
+      <fo:block margin-top="26cm" text-align="center" space-before="3.5mm">
+        <fo:block font-size="21pt" color="white" font-weight="bold">
+              Learning XML: Aprendiendo múltiples formatos
+            </fo:block>
+        <fo:block font-size="14pt" color="darkgrey">
+              Contenidos del portal web para aprender XML en múltiples formatos
+            </fo:block>
+        <fo:block font-size="10pt" color="grey">
+              Consultor: Ramirez J. | Grupo: Tr3s | Componentes: Gil I, Cervantes J, Iglesias R
+            </fo:block>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+  <fo:page-sequence master-reference="A4" initial-page-number="1">
+    <fo:static-content flow-name="xsl-region-before">
+      <fo:block-container absolute-position="absolute" width="21cm" height="29.7cm" top="0cm" left="0cm" padding="0cm" margin="0cm" font-size="0cm" line-height="0cm">
+        <fo:block>
+          <fo:external-graphic content-height="29.7cm" absolute-position="absolute" top="0cm" left="0cm" padding="0cm" margin-left="0cm" font-size="0cm" line-height="0cm" z-index="-1" src="img/background.tif" />
+        </fo:block>
+      </fo:block-container>
+      <fo:block absolute-position="absolute" top="0cm" left="0cm" padding="0cm" margin-left="2cm" font-size="0cm" line-height="0cm">
+        <fo:external-graphic absolute-position="absolute" left="0cm" padding="0cm" margin="0cm" content-width="4cm" height="1mm" src="img\header.tiff" />
+      </fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block border-top-style="solid" margin-left="2cm" margin-right="2cm">
+        <fo:block color="grey" text-align="center" space-before="3.5mm" font-size="8pt">
+              Learning XML: Aprender XML en múltiples formatos |
+              Página <fo:page-number /> de <fo:page-number-citation ref-id="UltimoBloque" /></fo:block>
+      </fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block id="INDICE" font-size="18pt" color="blue" border-bottom-style="solid" space-before="5mm" space-after="5mm">
+            INDICE
+          </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="left" space-before="3em" space-after="2em">
+          <fo:basic-link internal-destination="ID0ED">
+            <fo:inline font-weight="bold">Proyecto: Learning XML</fo:inline>
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="12pt" margin-left="2em" space-before="1em">
+          <fo:basic-link internal-destination="ID0EG">
+            <fo:inline font-weight="bold">1. Lenguajes de marcas</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EG" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EJ">1.a. ¿Qué son los lenguajes de marcas? <fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EJ" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EP">1.b. Ejemplos de lenguajes de marcas <fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EP" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="12pt" margin-left="2em" space-before="1em">
+          <fo:basic-link internal-destination="ID0EW">
+            <fo:inline font-weight="bold">2. Extensible Markup language (XML) </fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EW" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EZ">2.a. Definición de XML<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EZ" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0E6">2.b. Utilidades de XML<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0E6" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EFB">2.c. Estructura de documentos XML <fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EFB" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EQB">
+            <fo:inline font-style="italic">2.c.i ¿Que es DTD?</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EQB" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EWB">
+            <fo:inline font-style="italic">2.c.ii Ejemplos de gramáticas DTD</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EWB" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0E3B">
+            <fo:inline font-style="italic">2.c.iii Principales elementos de una gramática DTD</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0E3B" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EFC">2.d. Validación documentos XML<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EFC" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EKC">
+            <fo:inline font-style="italic">2.d.i Herramientas de validación de documentos XML.</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EKC" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0ERC">2.e. Transformación de estructuras XML<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0ERC" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EUC">
+            <fo:inline font-style="italic">2.e.i ¿Que es el lenguaje de transformación XSLT? </fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EUC" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0E3C">
+            <fo:inline font-style="italic">2.e.ii Ejemplos de transformaciones XSLT </fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0E3C" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0ECD">
+            <fo:inline font-style="italic">2.e.iii Principales instrucciones XSLT.</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0ECD" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EID">
+            <fo:inline font-style="italic">2.e.iv Herramientas de transformación con XSLT </fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EID" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="4em" space-before="0.8em">
+          <fo:basic-link internal-destination="ID0EPD">2.f. Ejemplos de lenguajes basados en XML<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EPD" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0ESD">
+            <fo:inline font-style="italic">2.f.i xHTML</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0ESD" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="8em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EVD">2.f.i.1 ¿Que és xHTML?<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EVD" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="8em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0E2D">2.f.i.2 Utilidades<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0E2D" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0ECE">
+            <fo:inline font-style="italic">2.f.ii RSS / Atom</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0ECE" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="8em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EFE">2.f.ii.1 ¿Qué es RSS o Atom? <fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0EFE" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="8em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0ENE">2.f.ii.2 Utilidades<fo:leader leader-pattern="dots" /><fo:page-number-citation ref-id="ID0ENE" /></fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block text-align-last="justify" margin-right="2em">
+        <fo:block text-align-last="justify" font-size="11pt" margin-left="6em" space-before="0.6em">
+          <fo:basic-link internal-destination="ID0EUE">
+            <fo:inline font-style="italic">2.f.iii Otros lenguajes basados en XML</fo:inline>
+            <fo:leader leader-pattern="dots" />
+            <fo:page-number-citation ref-id="ID0EUE" />
+          </fo:basic-link>
+        </fo:block>
+      </fo:block>
+      <fo:block break-after="column" />
+      <fo:block id="ID0ED" font-size="18pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="black">Proyecto: Learning XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EG" font-size="16pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="gray">1. Lenguajes de marcas</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EJ" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">1.a. ¿Qué son los lenguajes de marcas? </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EP" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">1.b. Ejemplos de lenguajes de marcas </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EW" font-size="16pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="gray">2. Extensible Markup language (XML) </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EZ" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.a. Definición de XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0E6" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.b. Utilidades de XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EFB" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.c. Estructura de documentos XML </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EQB" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.c.i ¿Que es DTD?</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EWB" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.c.ii Ejemplos de gramáticas DTD</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0E3B" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.c.iii Principales elementos de una gramática DTD</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EFC" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.d. Validación documentos XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EKC" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.d.i Herramientas de validación de documentos XML.</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0ERC" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.e. Transformación de estructuras XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EUC" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.e.i ¿Que es el lenguaje de transformación XSLT? </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0E3C" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.e.ii Ejemplos de transformaciones XSLT </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0ECD" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.e.iii Principales instrucciones XSLT.</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EID" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.e.iv Herramientas de transformación con XSLT </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EPD" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="darkgray">2.f. Ejemplos de lenguajes basados en XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0ESD" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.f.i xHTML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EVD" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="lightgrey">2.f.i.1 ¿Que és xHTML?</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0E2D" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="lightgrey">2.f.i.2 Utilidades</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0ECE" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.f.ii RSS / Atom</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EFE" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="lightgrey">2.f.ii.1 ¿Qué es RSS o Atom? </fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0ENE" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="lightgrey">2.f.ii.2 Utilidades</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="ID0EUE" font-size="14pt" font-weight="bold" padding-top="8pt" padding-bottom="8pt" text-align="center" color="white" background-color="silver">2.f.iii Otros lenguajes basados en XML</fo:block>
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block line-height="18pt" space-after.optimum="15pt" color="black" break-after="column" />
+      <fo:block id="UltimoBloque" />
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

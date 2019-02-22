@@ -1,0 +1,212 @@
+﻿/* Cabecera */
+#cabecera {
+    padding: 1%;
+    /* el espacio entre el contenido y el borde es del 1% (si fuera por ejemplo del 10% la cabecera se iría más hacia la derecha y habría más espacio a la izda.) */
+    width: 98%;
+    /* el ancho de la cabecera ocupa toda la página (el 100%) */
+    margin: 0 auto;
+    /* se usa como el padding pero en vez de ser con la parte de fuera es con la de dentro, por ejemplo en el caso del índice es para que haya más espacio estre las letras y los bordes de "la caja" que lleva el color de fondo */
+    text-align: center;
+    /* alineación de la cabecera */
+}
+
+/* Índice */
+#indice {
+    font-family: 'calibri';
+    /* definimos la fuente del texto del índice */
+    width: 25%;
+    /* le diremos que sólo ocupe el 25% de la página para que a la derecha se sitúe el contenido */
+    float: left;
+    /* le diremos que esté ubicado a la izda. de la página */
+    margin-left: 0px;
+    /* ponemos este margen para que no esté pegado a la izda. de la página y respire */
+}
+
+ /* Esto es para que desaparezca el punto que le dan de estilo a las listas */
+    #indice ul {
+        list-style: none;
+}
+
+/* Contenido */
+#contenido {
+    font-family: Calibri;
+    padding: 1%;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    /* justificamos el texto */
+    line-height: 2.1;
+    /* le damos un interlineado */
+}
+
+/* Diseño para el texto del link activo */
+a:active {
+    color: #ffffff;
+    text-decoration: none
+    /* con esta línea logramos que los enlaces no aparezcan subrallados y azules */
+}
+
+/* Diseño para el texto del link cuando paso ratón por encima */
+a:hoover {
+    color: #ffffff;
+    text-decoration: none
+}
+
+/* Diseño para el texto del link */
+a:link {
+    color: #ffffff;
+    text-decoration: none
+}
+
+/* Diseño para el texto del link visitado */
+a:visited {
+    color: #ffffff;
+    text-decoration: none
+}
+
+/* Diseño para el fondo del link cuando paso ratón por encima */
+.TituloIndiceNivel1:hover {
+    background-color: grey;
+    /* con hover logramos el efecto de cambiar de color el fondo al pasar el ratón por encima */
+}
+
+.TituloIndiceNivel2:hover {
+    background-color: grey;
+}
+
+.TituloIndiceNivel3:hover {
+    background-color: grey;
+}
+
+.TituloIndiceNivel4:hover {
+    background-color: grey;
+}
+
+/* Diseño para los links del índice */
+.TituloIndiceNivel1 {
+    font-family: Calibri;
+    display: block;
+    /* hace que el elemento se comporte como un bloque */
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.2em;
+    /* margen inferior (para que no estén todos los enlaces del índice pegados unos con otros y no se vean los cuadritos */
+    text-decoration: none;
+    /* para que el enlace no tenga ese diseño de subrallado y en azul */
+    color: #ffffff;
+    font-size: 15px;
+    /* tamaño del texto */
+    padding: 2%;
+}
+
+
+.TituloIndiceNivel2 {
+    font-family: Calibri;
+    display: block;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 2%;
+}
+
+.TituloIndiceNivel3 {
+    font-family: Calibri;
+    display: block;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 2%;
+}
+
+.TituloIndiceNivel4 {
+    font-family: Calibri;
+    display: block;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 2%;
+}
+
+/* Diseño para el título del proyecto */
+.TituloContenidoNivel0 {
+    font-family: 'Global Monospace';
+    text-align: center;
+    background-color: #ffffff;
+    color: #737373;
+    font-size: 50px;
+}
+
+/* Diseño para los títulos de los diferentes contenidos */
+.TituloContenidoNivel1 {
+    font-family: 'Global Monospace';
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    width: 95%;
+    padding: 2%;
+}
+
+.TituloContenidoNivel2 {
+    font-family: 'Global Monospace';
+    text-align: center;
+    background-color: dimgrey;
+    color: #ffffff;
+    font-size: 30px;
+    width: 95%;
+    padding: 2%;
+}
+
+.TituloContenidoNivel3 {
+    font-family: 'Global Monospace';
+    text-align: center;
+    background-color: darkgrey;
+    color: #ffffff;
+    font-size: 30px;
+    width: 95%;
+    padding: 2%;
+}
+
+.TituloContenidoNivel4 {
+    font-family: 'Global Monospace';
+    text-align: center;
+    background-color: lightgrey;
+    color: #ffffff;
+    font-size: 30px;
+    width: 95%;
+    padding: 2%;
+}
+
+/* Caja general  */
+div {
+    background-color: #ffffff;
+    /* color de fondo general */
+}
+
+/* Contenido */
+.contenidosTexto {
+    text-indent: 40px;
+    /* indica la tabulación */
+    margin: 30px;
+}
+
+/* Enlace para volver al índice que hay al final de cada apartado */
+.VolverAlIndice {
+    text-indent: 40px;
+    margin: 30px;
+}
+
+/* Formato de los vídeos */
+.video {
+    align: center;
+    margin: 30px;
+}

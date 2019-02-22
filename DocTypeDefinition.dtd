@@ -1,0 +1,75 @@
+<!ELEMENT contenido (temaNivel1|FeedRSS)+>
+<!ATTLIST contenido
+  xmlns CDATA #FIXED ""
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT temaNivel1 (temaNivel2|texto|video)+>
+<!ATTLIST temaNivel1
+  xmlns CDATA #FIXED ""
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT temaNivel2 (temaNivel3|texto|video)+>
+<!ATTLIST temaNivel2
+  xmlns CDATA #FIXED ""
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT temaNivel3 (temaNivel4|texto|video)+>
+<!ATTLIST temaNivel3
+  xmlns CDATA #FIXED ""
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT temaNivel4 (texto|video)+>
+<!ATTLIST temaNivel4
+  xmlns CDATA #FIXED ""
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT texto (#PCDATA|imagen)*>
+<!ATTLIST texto
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT FeedRSS (item)+>
+<!ATTLIST FeedRSS 
+  tituloCanal CDATA #REQUIRED
+  web CDATA #REQUIRED
+  descripcion CDATA #REQUIRED
+  idioma CDATA #REQUIRED
+  copyright CDATA #REQUIRED
+  fecha CDATA #REQUIRED
+  xmlns CDATA #FIXED ""
+  >
+
+<!ELEMENT item (title|link|description|pubDate|author|category)+>
+<!ATTLIST item
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT pubDate (#PCDATA)>
+<!ATTLIST pubDate
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST category
+  xmlns CDATA #FIXED "">
+
+<!ELEMENT imagen (#PCDATA)>
+<!ATTLIST imagen
+  xmlns CDATA #FIXED "">

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>LearningXML: Aprendiendo XML</title>
+    <link>http://13.93.85.31</link>
+    <description>¡Con éste feed estarás al día! ¡Te haremos llegar toda actualización de contenidos de nuestra web! No te perderas nada sobre el desarrollo de lenguajes XML como XSLT, XSL-FO, RSS... y siempre de una manera práctica, amena y sobre todo ¡entendible! (esperamos :P)</description>
+    <language>es</language>
+    <copyright>GPL-3.0</copyright>
+    <lastBuildDate>Mon, 18 Feb 2019 15:30:15 GMT</lastBuildDate>
+
+    <item>
+      <title>¡Bienvenido navegante! Acabamos de abrir nuestra nueva web</title>
+      <link>http://13.93.85.31</link>
+      <description>Hemos creado nuestra web! Bienvenid@s! Esperamos ampliar contenidos e ir profundizando a lo largo del tiempo: aprendamos juntos!</description>
+      <pubDate>Mon, 18 Feb 2019 15:40:40 GMT</pubDate>
+      <guid isPermaLink="false">ID0ECF</guid>
+      <author>LearningXML@LearningXML.com</author>
+      <category>XML</category>
+      <category>formación</category>
+    </item>
+
+    <item>
+      <title>Sección ¿Qué es XSLT? abierta! Ven a visitarnos!!</title>
+      <link>http://13.93.85.31</link>
+      <description>Acabamos de incluir nuestra sección ¿Qué es XSLT? Esperamos que os guste y sobre todo que os sea útil</description>
+      <pubDate>Mon, 18 Feb 2019 15:45:00 GMT</pubDate>
+      <guid isPermaLink="false">ID0ETF</guid>
+      <author>LearningXML@LearningXML.com</author>
+      <category>XML</category>
+      <category>formación</category>
+      <category>XSLT</category>
+      <category>XSL</category>
+      <category>XPath</category>
+      <category>Template rules</category>
+    </item>
+
+    <item>
+      <title>¿Quieres llevarte nuestros contenidos contigo? ¡Descarga nuestros contenidos en PDF!</title>
+      <link>http://13.93.85.31/LearningXML.pdf</link>
+      <description>Ya tenemos integrado en nuestro portal la posibilidad de descargar nuestros contenidos en PDF. Hemos trabajado duro, partiendo de nuestro XML (con los contenidos), hemos preparado un XSLT que nos genera un XSL-FO listo para ser procesado por Apache FOP y generar nuestro PDF. ¡Esperamos os sea útil!</description>
+      <pubDate>Mon, 18 Feb 2019 15:50:00 GMT</pubDate>
+      <guid isPermaLink="false">ID0EMG</guid>
+      <author>LearningXML@LearningXML.com</author>
+      <category>XML</category>
+      <category>formación</category>
+      <category>PDF</category>
+      <category>XSL-FO</category>
+      <category>XPath</category>
+      <category>Template rules</category>
+    </item>
+
+  </channel>
+</rss>
